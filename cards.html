@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <div class="container-md">
+        <div class="text-center">
+            <h2>Inside the book...</h2>
+            <p class="lead text-muted">A quick glane at topic ypou</p>
+        </div>
+        <div class="row my-5 g-5 justify-content-around">
+            <div class="col-6 col-lg-4">
+                <h3 id="lone">Lorem One</h3>
+                <div id="ponelorem" class="bg-primary d-none">
+                    Lorem One  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quo, voluptatem consequatur autem, distinctio quod porro vel praesentium reprehenderit voluptatibus hic amet eveniet repellendus magnam mollitia, consectetur labore? Eos aspernatur vel consequatur eum! Optio accusantium cum, repellat dolore totam aut? Non vel eos distinctio veritatis voluptatum tenetur deleniti labore suscipit!
+                </div>
+               
+            </div>
+            <div class="col-6">
+                
+                <h2>Lorem Two</h2>
+                Lorem Two Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui libero molestias at assumenda nisi. Ea blanditiis dignissimos incidunt repudiandae quaerat vero sit quam ab perspiciatis similique impedit tempora labore, necessitatibus doloribus architecto! Sequi quibusdam repudiandae autem fugiat in aliquam nihil libero molestias eligendi accusamus, nam voluptatem expedita officiis voluptatibus aspernatur!
+
+            </div>
+            <div class="col-3">
+                <h3>Loren Tree</h3>
+                Lorem Three Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque in adipisci asperiores iste tempora maiores aspernatur quo distinctio nobis! Quod quis autem illo ab repellat laborum consequatur distinctio nihil eligendi sit necessitatibus nisi iusto obcaecati ea voluptatem qui voluptates aliquid exercitationem veritatis, saepe velit omnis! Possimus illo voluptates eaque officia.
+            </div>
+        </div>
+    </div>
+  </section>
+</body>
+
+<script>
+$(document).ready(function() {
+    var btnOne = $("#lone");
+    var pone = $("#ponelorem");
+
+    $(btnOne).hover(function() {
+        $(pone).removeClass("d-none");
+    })
+
+})
+</script>
+
+</html>
